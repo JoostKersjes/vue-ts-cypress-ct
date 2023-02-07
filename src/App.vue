@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
+
 <template>
-  <main>This is not the file you are looking for</main>
+  <main>
+    <RouterView />
+  </main>
 </template>
