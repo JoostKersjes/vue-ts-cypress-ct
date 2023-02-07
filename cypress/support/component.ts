@@ -13,13 +13,7 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
-// Import commands.js using ES2015 syntax:
 import './commands'
-
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
-
-// Import global styles
 import '@/assets/main.css'
 
 import { mount } from 'cypress/vue'
@@ -38,6 +32,3 @@ declare global {
 }
 
 Cypress.Commands.add('mount', mount)
-
-// Example use:
-// cy.mount(MyComponent)
